@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2019_12_22_223651) do
   create_table "tracks", force: :cascade do |t|
     t.string "name"
     t.string "spotify_url"
-    t.integer "preview_url"
+    t.string "preview_url"
     t.integer "duration_ms"
     t.boolean "explicit"
     t.string "spotify_id"

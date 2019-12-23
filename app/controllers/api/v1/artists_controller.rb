@@ -18,7 +18,7 @@ module Api
                     res.each { |item| albums.push(addAlbum(item)) }
                 end
 
-                render json: {status:'SUCCESS',message:'Load Artists',data:albums},status: :ok
+                render json: {status:'SUCCESS',message:'Load Albums',data:albums},status: :ok
             end
 
             

@@ -10,7 +10,7 @@ module Api
                 artists = Artist.all
                 if artists.length > 0
                     artists.each {|item| genres(search,item)}
-                    render json: {status:'SUCCESS',message:'Load Artists',data:$_data},status: :ok 
+                    render json: {status:'SUCCESS',message:'Load song random',data:$_data},status: :ok 
                     
                 end
             end

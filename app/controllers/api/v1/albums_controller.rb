@@ -8,7 +8,7 @@ module Api
                     res.each { |item| tracks.push(add(item))  }
                 end
 
-                render json: {status:'SUCCESS',message:'Load Artists',data:tracks},status: :ok
+                render json: {status:'SUCCESS',message:'Load Songs',data:tracks},status: :ok
 
             end
 

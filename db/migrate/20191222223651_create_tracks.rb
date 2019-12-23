@@ -3,7 +3,7 @@ class CreateTracks < ActiveRecord::Migration[6.0]
     create_table :tracks do |t|
       t.string :name
       t.string :spotify_url
-      t.integer :preview_url
+      t.string :preview_url
       t.integer :duration_ms
       t.boolean :explicit
       t.string :spotify_id
